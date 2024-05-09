@@ -1,5 +1,11 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@700&family=Roboto:wght@400;700&display=swap');
+
 .App {
   text-align: center;
+}
+
+.App-header {
+  font-family: 'Roboto', sans-serif;
 }
 
 .App-header p {
@@ -12,7 +18,6 @@
   font-size: 48px;
   margin-top: 0px;
 }
-
 
 .App-header {
   background-color: #282c34;
@@ -35,10 +40,21 @@
 }
 
 h2 {
-  font-size: 40px;
+  font-size: 45px;
   margin-top: 10px; 
   margin-bottom: 10px;
 }
+
+.About {
+  background-color: #f7f7f7;
+  padding: 2em 0em; 
+  margin: 5em auto; 
+  border-radius: 8px; 
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); 
+  width: 80%;
+  font-family: 'Roboto', sans-serif;
+}
+
 
 .About h3 {
   font-size: 35px; 
@@ -46,26 +62,85 @@ h2 {
   margin-bottom: 10px;
 }
 
-.About p, .Journal p, .Contact address {
+.About p, .journal-section, .Contact address {
   font-size: 24px; 
-  margin: 20px 200px;
+  margin: 1em 5em;
   margin-bottom: 60px;
   text-align: justify;
   line-height: 1.6;
+  font-family: 'Roboto', sans-serif;
+  color: #333;
 }
 
 .Contact address {
   text-align: center;
 }
 
-.Journal a {
+.journal-section a {
   color: #0077cc;
   text-decoration: none;
   font-weight: bold;
   transition: color 0.3s ease-in-out; 
+  margin: 2em auto;
 }
 
-.Journal a:hover, .Journal a:focus {
+.journal-sectionl p {
+  font-size: 24px; 
+  margin: 20px 200px;
+  margin-bottom: 60px;
+  text-align: justify;
+  line-height: 1.6;
+  font-family: 'Roboto', sans-serif;
+  color: #333;
+  text-align: center;
+}
+
+.journal-section a:hover, .journal-section a:focus {
   color: #004499;
   text-decoration: underline; 
+}
+
+.journal-section {
+  background-color: #f2f2f2; 
+  padding: 20px 0; 
+  text-align: center; 
+  margin: 0 auto;
+  width: 100%; 
+}
+
+.journal-section h2, .journal-section p {
+  padding: 0 15%; 
+}
+
+.journal-section a {
+  color: #0056b3; 
+  text-decoration: none;
+}
+
+.journal-section a:hover {
+  text-decoration: underline; 
+}
+
+.App-footer {
+  background-color: #333;
+  color: white;
+  text-align: center;
+  padding: 20px 0;
+  width: 100%; 
+  font-size: 20px;
+}
+
+.App-footer address {
+  font-style: normal;
+  line-height: 1.6; 
+}
+
+#contact-us {
+  font-size: 30px;
+  font-weight: 600;
+}
+
+#copyright {
+  margin-top: 4em;
+  font-size: 10px;
 }
