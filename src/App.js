@@ -44,32 +44,26 @@ function App() {
           </p>
       </section>
 
-      {/* Featured Research Section */}
-      <section className="Journal">
+      <section className="journal-section">
         <h2>Journal</h2>
-        <div>
-          <p>
+        <p>
           We are proud to be the publishers of the esteemed journal, Nexus of Future Materials, 
           dedicated to advancing the field of material science through cutting-edge research and innovation.
-          
-          Journal website: <a href="https://nfmjournal.com">Visit Our Journal</a>
-          </p>
-        </div>
+        </p>
+        <p>
+          <a href="https://nfmjournal.com" target="_blank" rel="noopener noreferrer">Visit Our Journal</a>
+        </p>
       </section>
 
-      {/* Contact Information */}
-      <section className="Contact">
-        <h2>Contact Us</h2>
-        <address>
-          NEXTECH MATERIALS INNOVATIONS LTD<br />
-          71-75 Shelton Street, Covent Garden, London, WC2H 9JQ, United Kingdom
-        </address>
-      </section>
-
-      {/* Footer */}
       <footer className="App-footer">
-        <p>&copy; {new Date().getFullYear()} NEXTECH MATERIALS INNOVATIONS LTD</p>
-
+        <div className="footer-content">
+          <p id="contact-us">Contact Us</p>
+          <address>
+            NEXTECH MATERIALS INNOVATIONS LTD<br />
+            71-75 Shelton Street, Covent Garden, London, WC2H 9JQ, United Kingdom
+          </address>
+          <p id="copyright">&copy; {new Date().getFullYear()} NEXTECH MATERIALS INNOVATIONS LTD</p>
+        </div>
       </footer>
     </div>
   );
