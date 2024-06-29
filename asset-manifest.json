@@ -1,13 +1,15 @@
 {
   "files": {
-    "main.css": "/MentorWebsite/static/css/main.4e6520ae.css",
-    "main.js": "/MentorWebsite/static/js/main.49d4a9b6.js",
+    "main.css": "/MentorWebsite/static/css/main.4e68d01d.css",
+    "main.js": "/MentorWebsite/static/js/main.20b0673f.js",
+    "static/js/453.b38641c3.chunk.js": "/MentorWebsite/static/js/453.b38641c3.chunk.js",
     "index.html": "/MentorWebsite/index.html",
-    "main.4e6520ae.css.map": "/MentorWebsite/static/css/main.4e6520ae.css.map",
-    "main.49d4a9b6.js.map": "/MentorWebsite/static/js/main.49d4a9b6.js.map"
+    "main.4e68d01d.css.map": "/MentorWebsite/static/css/main.4e68d01d.css.map",
+    "main.20b0673f.js.map": "/MentorWebsite/static/js/main.20b0673f.js.map",
+    "453.b38641c3.chunk.js.map": "/MentorWebsite/static/js/453.b38641c3.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.4e6520ae.css",
-    "static/js/main.49d4a9b6.js"
+    "static/css/main.4e68d01d.css",
+    "static/js/main.20b0673f.js"
   ]
 }
