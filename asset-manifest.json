@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/MentorWebsite/static/css/main.4e6520ae.css",
-    "main.js": "/MentorWebsite/static/js/main.e772ea00.js",
+    "main.js": "/MentorWebsite/static/js/main.e09637b5.js",
     "index.html": "/MentorWebsite/index.html",
     "main.4e6520ae.css.map": "/MentorWebsite/static/css/main.4e6520ae.css.map",
-    "main.e772ea00.js.map": "/MentorWebsite/static/js/main.e772ea00.js.map"
+    "main.e09637b5.js.map": "/MentorWebsite/static/js/main.e09637b5.js.map"
   },
   "entrypoints": [
     "static/css/main.4e6520ae.css",
-    "static/js/main.e772ea00.js"
+    "static/js/main.e09637b5.js"
   ]
 }
