@@ -4,10 +4,11 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <h1>Welcome to NEXTECH MATERIALS INNOVATIONS LTD</h1>
+      <img src="/logo.png" alt="logo" id='logo'></img>
+        <h1>Welcome to NEXUS OF FUTURE MATERIALS LTD</h1>
         <h2>Inspiring Innovation in Material Science</h2>
         <p>
-          At NEXTECH MATERIALS INNOVATIONS LTD, we are dedicated to pushing the boundaries of materials science, 
+          At NEXUS OF FUTURE MATERIALS LTD, we are dedicated to pushing the boundaries of materials science, 
           connecting researchers and industries to foster advancements that shape the future. Our flagship publication, 
           the Nexus of Future Materials, showcases cutting-edge research and insights from leading experts around the globe.
           </p>
@@ -17,14 +18,14 @@ function App() {
       <section className="About">
         <h2>About Us</h2>
         <p>
-          At NEXTECH MATERIALS INNOVATIONS LTD, we take pride in our pivotal role as the publisher of the nexus of future materials, 
+          At NEXUS OF FUTURE MATERIALS LTD, we take pride in our pivotal role as the publisher of the nexus of future materials, 
           a leading journal in the field of material science. Our journal is more than a publication—it is a dynamic platform where the 
           brightest minds in material science converge to share their innovative research and groundbreaking discoveries.
         </p>
         <h3>Empowering Research and Innovation</h3>
         <p>
           Our mission extends beyond publication; we are committed to facilitating the global dissemination of 
-          significant scientific advancements. Through nexus of future materials, we provide researchers around the 
+          significant scientific advancements. Through Nexus of Future Materials, we provide researchers around the 
           world with the opportunity to broadcast their findings to a broad, engaged audience, including fellow scientists, industry experts, and academia.
         </p>
           <h3>Fostering Collaboration and Advancement</h3>
@@ -59,10 +60,9 @@ function App() {
         <div className="footer-content">
           <p id="contact-us">Contact Us</p>
           <address>
-            NEXTECH MATERIALS INNOVATIONS LTD<br />
-            71-75 Shelton Street, Covent Garden, London, WC2H 9JQ, United Kingdom
+          NEXUS OF FUTURE MATERIALS LTD
           </address>
-          <p id="copyright">&copy; {new Date().getFullYear()} NEXTECH MATERIALS INNOVATIONS LTD</p>
+          <p id="copyright">&copy; {new Date().getFullYear()} NEXUS OF FUTURE MATERIALS LTD</p>
         </div>
       </footer>
     </div>
